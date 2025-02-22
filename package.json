@@ -1,7 +1,7 @@
 {
-  "homepage": "",
-  "name": "CS_499_ePortfolio",
-  "version": "0.1.0",
+  "homepage": "https://mkhlink.github.io/CS_499_ePortfolio",
+  "name": "enhanced",
+  "version": "1.0.0",
   "private": false,
   "dependencies": {
     "@chakra-ui/react": "^2.4.9",

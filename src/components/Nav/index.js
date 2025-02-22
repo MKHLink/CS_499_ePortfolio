@@ -18,7 +18,8 @@ function Navigation(props){
     
     const {
         setResumeSelected,
-        setPortSelected
+        setPortSelected,
+        setCodeSelected
         } = props;
 
         const [collapsed, setCollapsed] = useState(false);
@@ -55,24 +56,30 @@ function Navigation(props){
         inlineCollapsed={collapsed}
       >
         <Menu.Item key="1" 
-        onClick={()=>{ setResumeSelected(false);setPortSelected(false)}}>
+        onClick={()=>{ setCodeSelected(false);setResumeSelected(false);setPortSelected(false)}}>
           <UserOutlined />
           <span >About Me</span>
         </Menu.Item>
 
         <Menu.Item key="2" 
-        onClick={()=>{ setResumeSelected(false);setPortSelected(true)}}>
+        onClick={()=>{ setCodeSelected(true);setResumeSelected(false);setPortSelected(false)}}>
+          <DesktopOutlined />
+          <span >Code Review</span>
+        </Menu.Item>
+
+        <Menu.Item key="3" 
+        onClick={()=>{ setCodeSelected(false);setResumeSelected(false);setPortSelected(true)}}>
           <DesktopOutlined />
           <span >Portfolio</span>
         </Menu.Item>
 
-        <Menu.Item key="3" 
-        onClick={()=>{ setResumeSelected(true);setPortSelected(false)}}>
+        <Menu.Item key="4" 
+        onClick={()=>{ setCodeSelected(false);setResumeSelected(true);setPortSelected(false)}}>
           <ContainerOutlined />
           <span >Resume</span>
         </Menu.Item>
 
-        <Menu.Item key="4" 
+        <Menu.Item key="5" 
         onClick={handleShow}>
           <MailOutlined  />
           <span >Contact Me</span>

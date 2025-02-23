@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { SimpleGrid, Button } from "@chakra-ui/react";
 import { Card, CardBody, CardFooter, Heading, Text } from '@chakra-ui/react';
 
+//holds static projects and their github links, the large text bodies are narratives for the projects and can be hidden at will via buttons
 function Portfolio() {
   const [showNarrative, setShowNarrative] = useState(false);
   const [show2ndNarrative, setShow2ndNarrative] = useState(false);

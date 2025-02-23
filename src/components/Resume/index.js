@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box, Spinner } from "@chakra-ui/react";
 import { Button } from '@chakra-ui/react'
 
+//displays resume and links to googledrive for download
 function Resume() {
   const [loading, setLoading] = useState(true);
 

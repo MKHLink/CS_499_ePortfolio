@@ -13,7 +13,7 @@ import {
 } from '@ant-design/icons';
 import { Button, Menu } from 'antd';
 
-
+//navigation hamburger menu, gets states from App.js as porps
 function Navigation(props){
     
     const {

@@ -6,8 +6,6 @@ Personal_Portfolio
 
 [Usage](#usage)
 
-[Screenshots](#screenshots)
-
 [Deployment](#deploymet)
 
 [Contributors](#contributors)

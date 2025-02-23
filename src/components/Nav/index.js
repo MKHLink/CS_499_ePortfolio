@@ -58,7 +58,7 @@ function Navigation(props){
         <Menu.Item key="1" 
         onClick={()=>{ setCodeSelected(false);setResumeSelected(false);setPortSelected(false)}}>
           <UserOutlined />
-          <span >About Me</span>
+          <span >Professional Self-Assessment</span>
         </Menu.Item>
 
         <Menu.Item key="2" 
